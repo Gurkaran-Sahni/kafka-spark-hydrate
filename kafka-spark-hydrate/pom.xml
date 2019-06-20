@@ -6,6 +6,12 @@
   <name>kafka-spark-hydrate</name>
   
   <dependencies>
+      <!--async http dependency-->
+     <dependency>
+	      <groupId>org.asynchttpclient</groupId>
+	      <artifactId>async-http-client</artifactId>
+        <version>2.2.0</version>
+     </dependency>
   
   	<dependency>
   		<groupId>org.apache.spark</groupId>
